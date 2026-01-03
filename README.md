@@ -1,11 +1,16 @@
 # Python Starter Project
 
+[![Test](https://github.com/hizkil1122/starter/actions/workflows/test.yml/badge.svg)](https://github.com/hizkil1122/starter/actions/workflows/test.yml)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Minimal starter project with a simple function and tests.
 
-Requirements
+## Requirements
+
 - Python 3.8+
 
-Quick start (PowerShell on Windows)
+## Quick start (PowerShell on Windows)
 
 ```powershell
 # create virtualenv
@@ -22,7 +27,8 @@ python -m venv .venv
 .\.venv\Scripts\python main.py
 ```
 
-Files
+## Files
+
 - `main.py` — tiny example app
 - `tests/test_main.py` — pytest test
 
